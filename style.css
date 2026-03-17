@@ -1,0 +1,27 @@
+legend{
+    color: rgb(255, 0, 0); font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    color: blue;
+}
+
+header{
+    background-color: aqua;
+}
+
+body{
+    background-color: rgb(#4C46FA);
+}
+
+aside{
+    position: absolute;
+    left: 900px;
+    height: 800px;
+    width: 600px;
+    background-color: aliceblue;
+}
+
+footer{
+
+}
