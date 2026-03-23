@@ -9,17 +9,16 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Marx Bento Dumbá
+- Matricula: 918513
+- Proposta de projeto escolhida: Site de Belo Horizonte
+- Breve descrição sobre seu projeto: 
 
 
 ## Print do(s) wireframe(s) criado
 > Sugestão, use o Excalidraw para isso. Utilize esse [template básico](https://excalidraw.com/#json=LU-8hwcQEwzk11FwO8Opo,qPU9K6cNUEzlXzwOuKMIlQ) para você começar.
 
-
-<<  COLOQUE A IMAGEM AQUI >>
+[WireFrame do Site](/public/images/wireframe site.jpg)
 
 
 ## Print da home-page criada
