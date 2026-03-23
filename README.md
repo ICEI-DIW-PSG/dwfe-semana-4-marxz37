@@ -11,8 +11,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 - Nome: Marx Bento Dumbá
 - Matricula: 918513
-- Proposta de projeto escolhida: Site de Belo Horizonte
-- Breve descrição sobre seu projeto: 
+- Proposta de projeto escolhida: Um Website sobre a cidade/turismos de Belo Horizonte de Minas Gerais.
+- Breve descrição sobre seu projeto: O projeto consiste em um portal turístico imersivo sobre Belo Horizonte, focado em três pilares principais: Cultura e Arquitetura (Pampulha e Praça da Liberdade), Gastronomia (Mercado Central e o título de Cidade Criativa da Gastronomia pela UNESCO) e Natureza Urbana (Parque das Mangabeiras e Mirante). O site busca oferecer uma experiência visual moderna para turistas e locais, utilizando layouts responsivos, tipografia legível e uma navegação intuitiva que destaca os "tesouros escondidos" da capital mineira.
 
 
 ## Print do(s) wireframe(s) criado
