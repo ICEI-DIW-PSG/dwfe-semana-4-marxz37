@@ -4,80 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="">
-    <meta lang="pt-bt">
     <link rel="stylesheet" href="style.css">
-    <title>BhCity</title>
+    <title>BHCity - The Belo Horizonte Portal</title>
 </head>
 
 <body>
     <header>
-        <h1 class="text">BHCity</h1>
-        <img class="bandeira" src="/public/images/bandeira bh.png" alt="bandeira de belo horizonte" width="50px">
-        <li class="menu"><a href="index.html">Home</a></li>
-        <li class="menu"><a href="about.html">About</a></li>
-        <li class="menu"><a href="services.html">Services</a></li>
-        <li class="menu"><a href="departaments.html">Departaments</a></li>
+        <div class="logo-area">
+            <h1 class="text">BHCITY</h1>
+            <img class="bandeira" src="/public/images/bandeira bh.png" alt="Flag of BH" width="40">
+        </div>
+        
+        <nav>
+            <ul class="menu-list">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="about.html">About</a></li>
+                <li class="menu-item"><a href="services.html">Services</a></li>
+                <li class="menu-item"><a href="departaments.html">Depts</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <img class="cidade" src="/public/images/image1.jpg" width="1000px;">
-    <h1 class="welcome">Welcome</h1>
     <main>
-        The Official Website of Belo Horizonte!
-        <p>Belo Horizonte é uma das cidades mais lindas e locais para turismo de <strong>Minas Gerais!</strong></p>
+        <section class="hero-section">
+            <h1 class="welcome-title">WELCOME<br><span>TO<br>BELO HORIZONTE</span></h1>
+            
+            <div class="image-grid">
+                <img class="hero-img" src="/public/images/image1.jpg" alt="City view 1">
+                <img class="hero-img" src="/public/images/bh2.jpg" alt="City view 2">
+            </div>
+            
+            <p class="italic-subtitle">The Official Website of Belo Horizonte!</p>
+            <p>Belo Horizonte is one of the most beautiful cities and tourist spots in <strong>Minas Gerais!</strong></p>
+        </section>
 
-        <img class="bh2" src="/public/images/bh2.jpg" alt="Foto de Paisagem de Belo Horizonte" width="800px">
-        <div class="creatorwebsite">
-            OUR INTRODUCTIONS <br>
-            Welcome And Support the Creator of Website<br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit dolor labore iure corrupti
-                beatae, possimus sit, magnam neque mollitia atque optio dolorum consectetur adipisci quo, omnis magni
-                soluta reprehenderit?</p>
-            <button class="marxbuttongit"><a href="https://github.com/marxz37">Discover More</a></button> Marx Bento Dev Jr.
-        </div>
+        <section class="creator-website">
+            <h2 class="section-title">OUR INTRODUCTIONS</h2>
+            <p class="lorem-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>Laudantium velit dolor labore iure corrupti beatae, possimus<br>sit, magnam neque mollitia atque optio dolorum consectetur<br>adipisci quo, omnis magni soluta reprehenderit?</p>
+            
+            <h3 class="support-title">Welcome And Support the Creator of Website</h3>
+            
+            <div class="creator-profile">
+                <div class="circle-avatar"></div> 
+                <span class="creator-name">Marx Bento Dev Jr.</span>
+                <a href="https://github.com/marxz37" class="marxbuttongit" target="_blank" rel="noopener noreferrer">Discover More</a>
+            </div>
+        </section>
+
+        <section class="government-section">
+            <h2 class="governmentservice">GOVERNMENT SERVICE</h2>
+            <p class="gov-subtitle">Explore our Online Government<br>Services & Resources</p>
+
+            <div class="governador-card">
+                <img src="/public/images/govmg.jpg" alt="Photo of Mateus Simões" class="gov-image">
+                
+                <div class="gov-info">
+                    <h3 class="namegov">MATHEUS SIMOES</h3>
+                    <p class="gov-role"><em>The main voice of the city</em></p>
+                    <p class="gov-desc">The governor of Minas Gerais is Mateus Simões de Almeida (PSD),<br>having assumed office on March 22, 2026. He replaced<br>Romeu Zema, who resigned to run in the presidential<br>elections.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <br>
-    <h3 class="governmentservice">GOVERNMENT SERVICE</h3>
-    <h2>Explore our Online Governmet<br>
-        Services & Resources</h2><br>
 
-    <div class="governador">
-        <h3 class="namegov">Mateus Simões</h3>
-        <h2><em>The main voice of the city</em></h2>
-        <img src="/public/images/govmg.jpg" alt="Governador de Minas Gerais" width="200px">
-        <article class="aboutgov">
-            O governador de Minas Gerais é
-            Mateus Simões de Almeida (PSD) é o atual governador de Minas Gerais, tendo assumido o cargo em 22 de março
-            de 2026.
-            Ele substituiu Romeu Zema, que renunciou para disputar as eleições presidenciais.
-        </article>
-        <ul class="govtext">
-            <li>Origem: Nasceu em Belém (PA), mas construiu sua vida e carreira em Minas Gerais.</li>
-            <li>Formação: É formado em Direito pela Faculdade Milton Campos e mestre em Direito Empresarial.</li>
-            <li>Profissão: Além de político, é advogado, professor universitário (com passagens pela Fundação Dom Cabral
-                e Milton Campos) e produtor rural.</li>
-        </ul>
-    </div>
-    <div>
-        <h4>RECENT WORK PORTFOLIO</h4>
-        <h1>City Highlights Portfolios</h1>
-        <hr class="barcity">
-        <div>
-
-            <fieldset>
-                <legend>Contacts</legend>
-                <p>Agendar Visitas: (31)91234-1234</p>
-                <p>Locais de Turismos: (31)91234-1234</p>
-            </fieldset>
-            <footer>
-                Stay Connect With Us! <br>
-                Email: <input></input><button>Register</button>
-                <h2>Contact</h2>
-                (31) 1111-2222 <br>
-                bhcity@visits.com
-                <hr>
-                © 2023 BHCity & Marx. All rights reserved.
-            </footer>
+    <footer>
+        <div class="footer-contacts">
+            <h4>CONTACTS</h4>
+            <p>Book Tours: (31) 91234-1234</p>
+            <p>Tourist Attractions: (31) 91234-1234</p>
+            
+            <p class="stay-connected">Stay Connected With Us!</p>
+            
+            <form action="#" method="POST" class="newsletter-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2026 BHCity & Marx. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
