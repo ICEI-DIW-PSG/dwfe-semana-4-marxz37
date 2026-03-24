@@ -109,6 +109,7 @@ header {
 }
 
 .support-title {
+    color: rgb(253, 255, 106);
     margin-bottom: 25px;
     font-weight: normal;
 }
@@ -141,6 +142,12 @@ header {
     text-decoration: none;
     font-weight: bold;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.marxbuttongit:hover{
+    transition: background-color 0.3s ease;
+    background-color: rgb(149, 195, 221)
 }
 
 .government-section {
@@ -154,6 +161,7 @@ header {
 }
 
 .gov-subtitle {
+    font-size: 40px;
     margin-bottom: 40px;
 }
 
